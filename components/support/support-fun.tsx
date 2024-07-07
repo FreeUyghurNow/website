@@ -17,7 +17,7 @@ export default function SupportFUN() {
                         Your contribution has an impact.
                     </div>
                     <div className={support["support-fun-item-paragraph"]}>
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. In iaculis nunc sed augue lacus viverra. Tempor id eu nisl nunc. Condimentum mattis pellentesque id nibh tortor id.
+                        We rely on contributions like yours to support our ability to create engaging content and host campus events. Every little bit counts and is greatly appreciated!
                     </div>
                 </div>
                 <div className={support["support-contact"]}>

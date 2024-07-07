@@ -19,7 +19,7 @@ export default function FollowOurCause() {
                 text='Follow Our Cause'
             />
             <div className={home["section-par"]}>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate
+                View our posts below to learn about the numerous crimes committed against the Uyghur population, including detailed accounts of human rights abuses, and discover actionable steps you can take to support our cause and advocate for justice.
             </div>
             <div className={home["follow-us-carousel"]}>
                 <Link className={home["carousel-arrow-button"]} href="https://www.instagram.com/freeuyghurnow/">
@@ -27,13 +27,13 @@ export default function FollowOurCause() {
                         <img src={arrowlt.src} alt="Arrow Left" style={{ width: '100%', height: 'auto' }} />
                     </div>
                 </Link>
-                <Link className={home["carousel-post"]} href="">
+                <Link className={home["carousel-post"]} href="https://www.instagram.com/p/CzZjU6SP7zL/?hl=en&img_index=1">
                     <img src={whatshappening.src} alt="What's Happening to the Uyghurs" width="100%"/>
                 </Link>
-                <Link className={home["carousel-post"]} href="">
+                <Link className={home["carousel-post"]} href="https://www.instagram.com/p/C5OVANYr-RP/?hl=en&img_index=1">
                     <img src={portraits.src} alt="Portraits of Freedom" width="100%"/>
                 </Link>
-                <Link className={home["carousel-post"]} href="">
+                <Link className={home["carousel-post"]} href="https://www.instagram.com/p/C20Dwh_xW7S/?hl=en&img_index=1">
                     <img src={howcanhelp.src} alt="How You Can Help the Uyghurs" width="100%"/>
                 </Link>
                 <Link className={home["carousel-arrow-button"]} href="https://www.instagram.com/freeuyghurnow/">

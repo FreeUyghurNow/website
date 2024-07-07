@@ -19,12 +19,12 @@ export default function WantToJoin() {
                 <div className={home["hline-b"]} style={{ background: "#FFFF" }}/>
             </div>
             <div className={home["section-par"]} style={{ color: "#FFFF" }}>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate
+                Applications for our internship program will open on July 15th, 2024. Sign up here if you are interested in applying. 
             </div>
             <div className={home["learn-more"]} style={{ paddingTop: "0px" }}>
                 <div className={home["learn-more-text-content"]} style={{ background: "#5F3739" }}>
                     <div className={home["learn-more-text"]} style={{ color: "#FFFF" }}>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Play a role in the global movement for the Uyghur people.
                     </div>
                 </div>
                 <Link className={home["learn-more-button"]} href="">

@@ -28,7 +28,7 @@
     font-family: "IBM Plex Sans";
     font-size: 1.67vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -56,7 +56,7 @@
     font-family: "IBM Plex Sans";
     font-size: 1.67vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -150,7 +150,7 @@
     font-family: "DM Sans";
     font-size: 1.94vw;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
 
@@ -159,7 +159,7 @@
     font-family: "IBM Plex Sans";
     font-size: 1.46vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -176,4 +176,187 @@
     align-items: flex-start;
     gap: 3.47vw;
     background: #875053;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .about-fg {
+        display: flex;
+        width: 90.7vw;
+        padding: 11.63vw 4.65vw 17.44vw 4.65vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6.98vw;
+
+        background: url("../../public/mosque.png") no-repeat;
+        background-size: 46.49vw 58.14vw;
+        background-position: bottom right;
+    }
+
+    .about-section-contents {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .about-text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6.98vw;
+        flex: 1 0 0;
+    }
+
+    .about-section-par {
+        align-self: stretch;
+        color: #011627;
+        font-family: "IBM Plex Sans";
+        font-size: 4.19vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .about-subsection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.33vw;
+        align-self: stretch;
+    }
+
+    .about-item-heading {
+        align-self: stretch;
+        color: #6B3C3E;
+        font-family: "DM Sans";
+        font-size: 4.88vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .about-item-paragraph {
+        align-self: stretch;
+        color: #011627;
+        font-family: "IBM Plex Sans";
+        font-size: 4.19vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .about-spacer {
+        width: 0vw;
+        align-self: stretch;
+    }
+
+    .get-involved {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    .get-involved-text {
+        display: flex;
+        padding: 2.33vw 4.65vw;
+        align-items: center;
+        align-self: stretch;
+        background: #9B6A6C;
+    }
+
+    .section-head-big {
+        color: #FFF;
+        font-family: "DM Sans";
+        font-size: 6.51vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .get-involved-items {
+        display: flex;
+        width: 100vw;
+        height: 23.49vw;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .get-involved-item {
+        width: 33.32vw;
+        height: 23.49vw;
+    }
+
+    .get-involved-item-bg {
+        width: 33.32vw;
+        height: 23.49vw;
+    }
+
+    .get-involved-icon {
+        position: absolute;
+        left: 2.33vw;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: transform 0.15s;
+    }
+
+    .get-involved-item-fg {
+        display: flex;
+        width: 33.32vw;
+        height: 23.49vw;
+        align-items: flex-end;
+        flex-shrink: 0;
+    }
+
+    .get-involved-text-contents {
+        display: flex;
+        padding: 2.33vw 4.65vw;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .get-involved-action-text {
+        color: #FFF;
+        font-family: "DM Sans";
+        font-size: 4.19vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .get-involved-action-subtext {
+        color: #FFF;
+        font-family: "IBM Plex Sans";
+        font-size: 3.02vw;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .follow-icon {
+        width: 12.79vw;
+        height: 12.79vw;
+    }
+
+    .want-to-join {
+        display: flex;
+        width: 90.7vw;
+        padding: 9.3vw 4.65vw 23.26vw 4.65vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6.98vw;
+        background: #875053;
+    }
 }

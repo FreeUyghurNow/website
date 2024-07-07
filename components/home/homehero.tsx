@@ -18,7 +18,7 @@ export default function HomeHero() {
                                 <img src={highlight.src} alt="Highlight" style={{ width: '100%', height: 'auto' }} />
                             </div>
                             <div className={home["fun-text"]}>
-                                Free Uyghur now
+                                Free Uyghur Now
                             </div>
                         </div>
                     </div>

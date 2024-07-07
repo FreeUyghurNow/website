@@ -85,7 +85,7 @@
     font-family: "IBM Plex Sans";
     font-size: 1.25vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -115,7 +115,7 @@
     font-family: "IBM Plex Sans";
     font-size: 1.25vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -134,7 +134,7 @@
     font-family: "IBM Plex Sans";
     font-size: 1.67vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
@@ -249,4 +249,225 @@
     font-style: italic;
     font-weight: 300;
     line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .support-fun {
+        display: flex;
+        width: 90.7vw;
+        padding: 11.63vw 4.65vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6.98vw;
+    }
+
+    .support-fun-section-columns {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6.98vw;
+        align-self: stretch;
+    }
+
+    .support-fun-subsection {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.33vw;
+        align-self: stretch;
+        width: auto;
+    }
+
+    .support-fun-item-heading {
+        align-self: stretch;
+        color: #6B3C3E;
+        font-family: "DM Sans";
+        font-size: 4.88vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .support-fun-item-paragraph {
+        align-self: stretch;
+        color: #011627;
+        font-family: "IBM Plex Sans";
+        font-size: 4.19vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .support-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #E5DAD4;
+        width: 54.19vw;
+    }
+
+    .support-contact-heading {
+        display: flex;
+        padding: 2.33vw 4.65vw 1.16vw 4.65vw;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .support-contact-item-heading {
+        color: #9B6A6C;
+        font-family: "DM Sans";
+        font-size: 4.19vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .support-contact-items {
+        display: flex;
+        padding: 2.33vw 4.65vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.16vw;
+    }
+
+    .support-contact-item-subheading {
+        align-self: stretch;
+        color: #6B3C3E;
+        font-family: "IBM Plex Sans";
+        font-size: 3.26vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .support-contact-bullets {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .support-contact-bullet {
+        display: flex;
+        align-items: center;
+        gap: 2.33vw;
+    }
+
+    .bullet-hline-b {
+        width: 1.16vw;
+        height: 0.23vw;
+    }
+
+    .bullet-item-heading {
+        color: #6B3C3E;
+        font-family: "IBM Plex Sans";
+        font-size: 3.26vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .quick-donate {
+        display: flex;
+        padding: 5.81vw 4.65vw 17.44vw 4.65vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6.98vw;
+    }
+
+    .donate-paragraph {
+        align-self: stretch;
+        color: #011627;
+        font-family: "IBM Plex Sans";
+        font-size: 4.19vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .donation-form {
+        display: flex;
+        width: 90.7vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4.65vw;
+    }
+
+    .donation-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        background: #011627;
+    }
+
+    .donation-header {
+        display: flex;
+        padding: 2.33vw;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .donation-header-text {
+        color: #FFF;
+        font-family: "DM Sans";
+        font-size: 4.19vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .donation-buttons {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .donation-button {
+        display: flex;
+        padding: 2.33vw;
+        align-items: flex-start;
+        gap: 2.33vw;
+        flex: 1 0 0;
+        color: #FFF;
+        font-family: "IBM Plex Sans";
+        font-size: 3.26vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .donate-button {
+        display: flex;
+        padding: 2.33vw;
+        align-items: flex-start;
+        background: #5EAAE8;
+    }
+
+    .donate-button-text {
+        color: #FFF;
+        font-family: "DM Sans";
+        font-size: 4.19vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .donate-paragraph-i {
+        align-self: stretch;
+        color: #011627;
+        font-family: "IBM Plex Sans";
+        font-size: 3.26vw;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
