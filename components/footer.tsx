@@ -18,7 +18,7 @@ export default function Footer() {
                             We are Free Uyghur Now
                         </div>
                         <div className={home["footer-header-paragraph"]}>
-                            Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Nec tincidunt praesent semper feugiat. Faucibus scelerisque eleifend donec pretium vulputate. 
+                            Free Uyghur Now a youth-led non-profit organization devoted to raising awareness about human rights abuses against Uyghurs. Support our cause by sharing our content and donating. 
                         </div>
                     </div>
                     <div className={home["footer-columns-text"]}>

@@ -14,7 +14,7 @@ export default function MissionFUN() {
                         Our Mission
                     </div>
                     <div className={home["about-fun-col-paragraph"]}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        We aim to share the stories of Uyghurs.
                     </div>
                 </div>
                 <div className={home["mission-fun-column-r"]}/>

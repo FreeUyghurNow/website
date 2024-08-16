@@ -16,14 +16,14 @@ export default function About() {
             <div className={about["about-section-contents"]}>
                 <div className={about["about-text-content"]}>
                     <div className={about["about-section-par"]}>
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate
+                        We work to highlight human rights abuses happening to Uyghurs and advocate for policy and behavior changes to stop the mistreatment of Uyghurs. Almost every Uyghur can recount how the government of China has hurt them or their loved ones but unfortunately the world has been slow to take action. We aim to raise awareness about the crimes committed against Uyghurs and advocate for a better tomorrow.
                     </div>
                     <div className={about["about-subsection"]}>
                         <div className={about["about-item-heading"]}>
                             Our Mission
                         </div>
                         <div className={about["about-item-paragraph"]}>
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. In iaculis nunc sed augue lacus viverra. Tempor id eu nisl nunc. Condimentum mattis pellentesque id nibh tortor id.
+                            Through research-based advocacy and social media campaigning we aim to raise awareness about human rights abuses towards Uyghurs among the population and with key decision makers.
                         </div>
                     </div>
                     <div className={about["about-subsection"]}>
@@ -31,7 +31,7 @@ export default function About() {
                             The Free Uyghur Now Vision
                         </div>
                         <div className={about["about-item-paragraph"]}>
-                            Tempor id eu nisl nunc. Condimentum mattis pellentesque id nibh tortor id. Netus et malesuada fames ac turpis egestas maecenas pharetra. Volutpat consequat mauris nunc congue nisi vitae suscipit.
+                            We envision a world where Uyghurs can live free and happy lives.
                         </div>
                     </div>
                 </div>
