@@ -2,6 +2,7 @@ import "./globals.css";
 
 import type { Metadata } from "next";
 import { IBM_Plex_Sans, DM_Sans} from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 
 const DMSans = DM_Sans({
     subsets: ['latin'],
@@ -33,6 +34,7 @@ export default function RootLayout({
     <html lang="en">
         <body className={`${DMSans.variable} ${IBMPlexSans.variable}`}>
             {children}
+            <Analytics />
         </body>
     </html>
   );
