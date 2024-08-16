@@ -14,31 +14,31 @@ export default function DonationForm() {
     const getLink = (amt:any, freq:any) => {
         switch (`${amt}-${freq}`) {
             case '10-One-Time':
-                return 'https://donate.stripe.com/eVa02ycFt9EofOUdQS';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '50-One-Time':
-                return 'https://donate.stripe.com/eVa02ycFt9EofOUdQS';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '100-One-Time':
-                return 'https://donate.stripe.com/9AQ3eK6h5aIsdGMeUX';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '500-One-Time':
-                return 'https://donate.stripe.com/8wMeXs48X3g07io9AE';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '10-Monthly':
-                return 'https://buy.stripe.com/7sI3eKdJx5o88msaEJ';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '50-Monthly':
-                return 'https://buy.stripe.com/aEU5mS7l9cQA0U0cMS';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '100-Monthly':
-                return 'https://buy.stripe.com/bIY3eKdJxeYI0U03cj';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '500-Monthly':
-                return 'https://buy.stripe.com/9AQ4iObBp9Eo6ek14c';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '10-Annual':
-                return 'https://buy.stripe.com/9AQdTo48XdUE328bIR';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '50-Annual':
-                return 'https://buy.stripe.com/6oEg1w48XcQAbyE4gq';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '100-Annual':
-                return 'https://buy.stripe.com/cN2dToaxl9Eo5ag8wH';
+                return 'https://www.instagram.com/freeuyghurnow/';
             case '500-Annual':
-                return 'https://buy.stripe.com/dR6dTo6h5bMwcCI14g';
+                return 'https://www.instagram.com/freeuyghurnow/';
             default:
-                return 'https://donate.stripe.com/bIYcPk48XbMw9qw14h';
+                return 'https://www.instagram.com/freeuyghurnow/';
         }
     }
 
