@@ -17,7 +17,7 @@ export default function QuickDonate() {
             </div>
             <DonationForm />
             <div className={support["donate-paragraph-i"]}>
-                Free Uyghur Now is a 501(c)(3) not-for-profit organization. As no goods or services are provided to you in return for your charitable contribution, the entire amount of your contribution is tax deductible to the full extent allowed by law. Our tax ID is: 12-3456789
+                Free Uyghur Now is a 501(c)(3) not-for-profit organization. As no goods or services are provided to you in return for your charitable contribution, the entire amount of your contribution is tax deductible to the full extent allowed by law.
             </div>
         </div>
     )
