@@ -76,7 +76,7 @@ export default function Footer() {
                 <div className={home["footer-hline-b"]}/>
                 <div className={home["footer-bottom-text"]}>
                     <div className={home["legal"]}>
-                        Free Uyghur Now is a State 501(c)(3) tax-exempt non-profit corporation; our tax ID is: 12-3456789
+                        Free Uyghur Now is a State 501(c)(3) tax-exempt non-profit corporation.
                     </div>
                     <div className={home["legal"]}>
                         Made with ❤️ in Boston | Copyright © 2024 Free Uyghur Now
